@@ -27,21 +27,33 @@
     <div class="second-container">
       <h1 class="question"></h1>
       <div class="choices">
-        <div class="choice-container">
+        <div
+          class="choice-container"
+          onclick="checkAnswer(document.querySelector('.child1'))"
+        >
           <div class="child-inner">A</div>
-          <div class="child1" onclick="checkAnswer(this)"></div>
+          <div class="child1"></div>
         </div>
-        <div class="choice-container">
+        <div
+          class="choice-container"
+          onclick="checkAnswer(document.querySelector('.child2'))"
+        >
           <div class="child-inner">B</div>
-          <div class="child2" onclick="checkAnswer(this)"></div>
+          <div class="child2"></div>
         </div>
-        <div class="choice-container">
+        <div
+          class="choice-container"
+          onclick="checkAnswer(document.querySelector('.child3'))"
+        >
           <div class="child-inner">C</div>
-          <div class="child3" onclick="checkAnswer(this)"></div>
+          <div class="child3"></div>
         </div>
-        <div class="choice-container">
+        <div
+          class="choice-container"
+          onclick="checkAnswer(document.querySelector('.child4'))"
+        >
           <div class="child-inner">D</div>
-          <div class="child4" onclick="checkAnswer(this)"></div>
+          <div class="child4"></div>
         </div>
       </div>
     </div>

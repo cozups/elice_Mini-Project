@@ -64,10 +64,7 @@ progress[value]::-webkit-progress-value {
   padding: 0 0 0 10px;
 }
 
-.child1:hover,
-.child2:hover,
-.child3:hover,
-.child4:hover {
+.choice-container:hover {
   box-shadow: 0 5px 15px #5aa7eb;
   cursor: pointer;
 }
@@ -75,8 +72,9 @@ progress[value]::-webkit-progress-value {
 .child-inner {
   background-color: #5aa7eb;
   color: white;
+  width: 50px;
+  text-align: center;
   padding: 10px 20px;
-  width: 5%;
 }
 
 .score {
