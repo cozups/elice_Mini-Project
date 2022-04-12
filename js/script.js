@@ -55,10 +55,12 @@ function checkAnswer(choice) {
 
   if (questionNow === questionNumber) {
     // 문제 개수 도달하면 끝내기
-    let body = document.querySelector("body");
-    body.innerHTML = "<h1>Total score : " + score + "</h1>";
-    body.innerHTML +=
-      '<a href="quiz.html"> <button class="start-btn">Play Again</button></a>';
+    setTimeout(function () {
+      let body = document.querySelector("body");
+      body.innerHTML = "<h1>Total score : " + score + "</h1>";
+      body.innerHTML +=
+        '<a href="quiz.html"> <button class="start-btn">Play Again</button></a>';
+    }, 1000);
   } else {
     setTimeout(function () {
       choice.style.backgroundColor = "#ecf5ff";
